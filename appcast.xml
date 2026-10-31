@@ -6,5 +6,29 @@
     <description>Updates for SimLens, a camera for the iOS Simulator.</description>
     <language>en</language>
     <!-- items -->
+    <item>
+      <title>SimLens 1.4.0</title>
+      <pubDate>Sat, 31 Oct 2026 16:55:19 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Added</h3>
+<li><b>SimLens Pro</b>: a 14-day trial with every feature, then a $15 one-time licence (1 year of updates) bought through Paddle. A Licence window with Buy and key entry; <b>Activate in SimLens</b> links (<code>simlens://activate</code>) from the purchase page; keys are checked offline. <code>simlensctl</code> and headless mode need a licence after the trial too.</li>
+<li><b>Automatic updates</b> (Sparkle 2): SimLens checks the public SimLens-releases feed once a day (Settings › Updates, or About › Check for Updates…). Updates are EdDSA-signed and verified before installing. Downloads move to the public [SimLens-releases](https://github.com/ErIMRANALAM/SimLens-releases) repository.</li>
+<li><b>SimLensTestKit</b>: a Swift package for UI tests — <code>SimLens.show(.barcode(…) / .image(…) / .sample(.receipt) …, on: .front)</code> from inside an XCUITest, plus <code>SimLens.launchEnvironment</code> for the app under test. Requests travel as files, since the simulator can't reach the control port.</li>
+<li><b>Sample images</b>: a made-up receipt, document, specimen ID card, business card, product barcode, QR poster and boarding pass, in the Image source's new <b>Samples</b> menu and in SimLensTestKit.</li>
+<li><b>CI / headless mode</b>: <code>simlensctl start --headless [--source …]</code> runs SimLens without any UI for build servers; <code>simlensctl wait</code> blocks until a simulator has the camera; <code>simlensctl stop [--quit]</code>; <code>simlensctl status --json</code>. Example GitHub Actions workflow in <code>docs/ci/github-actions.yml</code>.</li>
+<li><b>Video recording and microphone</b>: <code>AVCaptureMovieFileOutput</code> records real H.264/HEVC movies of the stream with AAC sound and the usual delegate callbacks. A virtual microphone gives sessions sound from the Mac's microphone (when the app has microphone permission; silence otherwise), also for <code>AVCaptureAudioDataOutput</code>.</li>
+<li><b>Camera controls and lenses</b>: zoom (crops towards the centre, with ramps), torch, exposure bias, and focus, exposure and white-balance modes and points of interest now work. Apps find back ultra-wide and telephoto (3×) cameras and Dual, Dual Wide and Triple devices with real switch-over zoom factors. Photos and code scanning see the zoom too.</li>
+<li><b>Barcodes</b>: the QR Code source is now <b>Barcode</b> and also generates Aztec, PDF417, Code 128, EAN-13 and EAN-8 (EAN check digits added). Apps now read every code type the camera supports (Data Matrix, EAN, UPC-E, Code 39/93/128, ITF, Codabar, GS1 DataBar, Micro QR/PDF417 …) with the right type, not just QR. <code>simlensctl generate-barcode &lt;value&gt; --type ean13</code>.</li>
+<li><b>Separate front and back cameras</b>: the menu's Back | Front switch gives the front camera its own source (e.g. Passthrough on the back, the webcam on the front). <code>simlensctl set-source &lt;source&gt; --position front</code>, and <code>set-source same --position front</code> to follow the back camera again. Photos come from the camera in use.</li>
+<h3>Changed</h3>
+<li>Redesigned About window: publisher and developer cards with icons, links you can right-click to copy, and a Support button.</li>
+<h3>Fixed</h3>
+<li>A rare crash when switching sources quickly.</li>
+<li>The virtual camera now reports that it does not support multi-camera capture (<code>isMultiCamSupported</code>).</li>
+<li>Opening a second copy of SimLens no longer removes the running copy's Xcode setup or simulator camera; it brings the running copy forward instead.</li>]]></description>
+      <enclosure url="https://github.com/ErIMRANALAM/SimLens-releases/releases/download/v1.4.0/SimLens-1.4.0.dmg" sparkle:edSignature="EwdJkyEHXidDZWnIS87NrK5TbUpQY6iSGrJLrA0VUIqP+yz62JPUkHwfCboLKX6ZfcEGKtDi1V1NRA8p6zQ5Bg==" length="7649830" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
