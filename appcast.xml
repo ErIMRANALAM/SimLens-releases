@@ -7,6 +7,18 @@
     <language>en</language>
     <!-- items -->
     <item>
+      <title>SimLens 1.4.1</title>
+      <pubDate>Sat, 31 Oct 2026 17:20:22 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Changed</h3>
+<li><b>Check for Updates… says plainly what it found</b>: "SimLens is up to date — you have the latest version, 1.4.0", "A new version of SimLens is available — SimLens 1.5.0 is available. You have 1.4.0" (with <b>Install Update…</b> and <b>Later</b>), or "Couldn't check for updates" with the reason (for example, no internet connection) and <b>Try Again</b>. Settings › Updates and About show the result of the last check, with Install Update when a new version is waiting.</li>
+<h3>Fixed</h3>
+<li>Quitting SimLens with <code>kill</code> / <code>pkill</code> while one of its alerts was open did nothing until the alert was closed.</li>]]></description>
+      <enclosure url="https://github.com/ErIMRANALAM/SimLens-releases/releases/download/v1.4.1/SimLens-1.4.1.dmg" sparkle:edSignature="NaqjF31UN7kqIou5eV0r08CyaIB40eBUQ/syEMvlKjn6lCbMD0YSLd1um2olaLVBpB6xmcRZiM6bfYdp5MPdCA==" length="7711049" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>SimLens 1.4.0</title>
       <pubDate>Sat, 31 Oct 2026 16:55:19 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
