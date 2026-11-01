@@ -7,6 +7,17 @@
     <language>en</language>
     <!-- items -->
     <item>
+      <title>SimLens 1.5.1</title>
+      <pubDate>Sun, 01 Nov 2026 06:45:05 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Added</h3>
+<li><b>See your licence at any time</b>: with SimLens Pro the menu shows <b>Active on this Mac</b> under the name; click it for the licence details. Before, a licensed copy had no way to open the Licence window, for example to deactivate it before moving to a new Mac.</li>
+<li><code>simlensctl status</code> shows the licence or trial, and <code>status --json</code> has a <code>licence</code> object (<code>state</code>: licensed, trial, trial-ended or inactive; <code>canStream</code>; email, purchase, updates-until, Mac, trial days left) for CI scripts.</li>]]></description>
+      <enclosure url="https://github.com/ErIMRANALAM/SimLens-releases/releases/download/v1.5.1/SimLens-1.5.1.dmg" sparkle:edSignature="XCG8tuoqyzdYmvcPx7bBB8H+2Cz/Qx5ZR1gORGrYXmjj6sEt9lcxFEZpMHhukYb/xn1NnH7WAOqasirHPeEPBA==" length="7847451" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>SimLens 1.5.0</title>
       <pubDate>Sun, 01 Nov 2026 06:27:12 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
