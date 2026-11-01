@@ -7,6 +7,17 @@
     <language>en</language>
     <!-- items -->
     <item>
+      <title>SimLens 1.5.0</title>
+      <pubDate>Sun, 01 Nov 2026 06:27:12 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Changed</h3>
+<li><b>A SimLens Pro licence is active on one Mac at a time.</b> Activating the key on another Mac moves it there; the previous Mac is signed out at its next check (at launch and every 6 hours) and can take it back with <b>Use on This Mac</b>. SimLens keeps working offline for up to 7 days between checks. The Licence window shows which Mac the licence is on, and <b>Deactivate on This Mac</b> frees it. Keys saved by SimLens 1.4 activate on their Mac automatically.</li>
+<li><b>Buy SimLens Pro</b> opens the new SimLens website, simlens.ourappsworld.com.</li>]]></description>
+      <enclosure url="https://github.com/ErIMRANALAM/SimLens-releases/releases/download/v1.5.0/SimLens-1.5.0.dmg" sparkle:edSignature="LtlNCQ0E+SGoOtIWHEfKs6+mAq8ieEfioVQxltSphlPchS9uUEz+y6FNBB5YuvfsgWVe0rFZZSIhZtiZjCLRBQ==" length="7817309" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>SimLens 1.4.1</title>
       <pubDate>Sat, 31 Oct 2026 17:20:22 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
