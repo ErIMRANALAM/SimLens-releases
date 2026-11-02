@@ -7,6 +7,20 @@
     <language>en</language>
     <!-- items -->
     <item>
+      <title>SimLens 1.6.0</title>
+      <pubDate>Mon, 02 Nov 2026 15:25:51 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Added</h3>
+<li><b>Test Conditions</b> (menu › Picture › Test Conditions, <code>simlensctl set-conditions</code>, <code>SimLens.setConditions</code> in SimLensTestKit): simulate camera failures — permission denied, restricted or refused at the prompt, no camera, interruptions (another app, phone call, system pressure) and session errors — with the same answers and notifications as an iPhone; and bad conditions — blur, low light, noise, glare, shake and tilt — in every frame apps receive. <code>simlensctl status</code> shows what is on.</li>
+<h3>Changed</h3>
+<li>Updates released after a licence's year of updates are no longer offered. The update check says "Your licence's updates have ended" with a way to renew, and a version newer than the licence (installed by hand) explains why in the Licence window instead of showing "Trial ended".</li>
+<h3>Fixed</h3>
+<li>Apps no longer receive a false runtime error from the simulator's AVFoundation soon after setting up the camera.</li>]]></description>
+      <enclosure url="https://github.com/ErIMRANALAM/SimLens-releases/releases/download/v1.6.0/SimLens-1.6.0.dmg" sparkle:edSignature="D+wP68lAVM0bZETPHM7nmDnJp4MwYPAKpcTexmOaG1l+JlD2vwsVpmfKvWd8qpj8ouXraFmkga1SMLwVWRmmAg==" length="8042315" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>SimLens 1.5.1</title>
       <pubDate>Sun, 01 Nov 2026 06:45:05 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
