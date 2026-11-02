@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- items -->
     <item>
+      <title>SimLens 1.7.0</title>
+      <pubDate>Mon, 02 Nov 2026 17:02:51 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Added</h3>
+<li><b>CI licence</b> for build servers: a key set as the <code>SIMLENS_LICENCE_KEY</code> environment variable unlocks <code>simlensctl start --headless</code> on any number of machines, without contacting the licence server. It doesn't work in the menu bar app, and a SimLens Pro key doesn't work this way. <code>simlensctl status</code> shows which is in use.</li>]]></description>
+      <enclosure url="https://github.com/ErIMRANALAM/SimLens-releases/releases/download/v1.7.0/SimLens-1.7.0.dmg" sparkle:edSignature="XdfsAsJ1BlD/0YC3CwD6V68eqcUCzCjiuAiAkvBDoqHgvYnzx7knXCTM1HcTfz9TL9KpoTjK+vgmBAqElRZrAQ==" length="8050174" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>SimLens 1.6.0</title>
       <pubDate>Mon, 02 Nov 2026 15:25:51 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
