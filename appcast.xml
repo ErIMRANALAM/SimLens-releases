@@ -17,16 +17,6 @@
       <enclosure url="https://github.com/ErIMRANALAM/SimLens-releases/releases/download/v1.7.1/SimLens-1.7.1.dmg" sparkle:edSignature="rEZRS/8uJPjX/HbW/Tj0KpvKbFXNBsCQoxwNahqcpBsLnUFhkZ+aDRk8MuUlttsxNtUb1ZdnpJEK/Ztu1ijxDg==" length="8051700" type="application/octet-stream"/>
     </item>
     <item>
-      <title>SimLens 1.7.1</title>
-      <pubDate>Sat, 07 Nov 2026 18:11:45 +0000</pubDate>
-      <sparkle:version>12</sparkle:version>
-      <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Changed</h3>
-<li>Licences are now activated and checked against SimLens's own licence server (<code>pay.ourappsworld.com</code>). Your licence key, its format and the one-Mac-per-key rule are unchanged.</li>]]></description>
-      <enclosure url="https://github.com/ErIMRANALAM/SimLens-releases/releases/download/v1.7.1/SimLens-1.7.1.dmg" sparkle:edSignature="rEZRS/8uJPjX/HbW/Tj0KpvKbFXNBsCQoxwNahqcpBsLnUFhkZ+aDRk8MuUlttsxNtUb1ZdnpJEK/Ztu1ijxDg==" length="8051700" type="application/octet-stream"/>
-    </item>
-    <item>
       <title>SimLens 1.7.0</title>
       <pubDate>Mon, 02 Nov 2026 17:02:51 +0000</pubDate>
       <sparkle:version>11</sparkle:version>
